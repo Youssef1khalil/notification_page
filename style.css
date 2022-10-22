@@ -4,8 +4,9 @@
   margin: 0;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   background-color: hsl(210, 60%, 98%);
+  font-size: 16px;
 }
 ul {
   list-style: none;
@@ -31,7 +32,6 @@ li {
   padding: 15px;
   color: hsl(219, 12%, 42%);
   font-size: 13px;
-  cursor: pointer;
 }
 img {
   width: 32px;
@@ -51,6 +51,7 @@ p.message {
   padding: 20px;
   border: 1px solid hsl(219, 14%, 63%);
   border-radius: 5px;
+  font-size: 16px;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -63,11 +64,11 @@ p.message:hover {
 }
 .name {
   color: hsl(224, 21%, 14%);
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .post {
-  font-weight: bold;
+  font-weight: 800;
 }
 .mark-all {
   color: hsl(219, 12%, 42%);
@@ -84,7 +85,6 @@ p.message:hover {
   margin: 20px auto;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
-  /* box-shadow: 0 0 5px 2px; */
 }
 .heading {
   display: flex;
@@ -92,7 +92,7 @@ p.message:hover {
   margin-bottom: 20px;
 }
 .heading .tittle {
-  font-weight: bold;
+  font-weight: 800;
   display: inline-block;
   margin-right: 5px;
 }
